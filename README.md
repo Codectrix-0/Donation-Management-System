@@ -1,48 +1,166 @@
-# Donation-Management-System
+<h1 align="center"> Donation Management System </h1>
 
-Donation Management System
-A simple, console-based application built in C Programming to manage and track charitable donations. This project was developed as part of a Project-Based Learning (PBL) initiative to demonstrate core programming logic and data management.
+<p align="center">
+  <b>A Simple Console-Based Donation Management Project in C</b><br>
+  Built using C Programming Language for managing donor records and donations.
+</p>
 
-## Features:
-<h5>Add Donation: Input donor details (Name and Amount).</h5>
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-C-blue?style=for-the-badge&logo=c">
+  <img src="https://img.shields.io/badge/Project-PBL-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Completed-orange?style=for-the-badge">
+</p>
 
-View Donations: Display a formatted list of all recorded donors.
+---
 
-Calculate Total: Automatically calculate the sum of all donations received.
+# 📌 About Project
 
-User-Friendly Menu: A continuous loop system allowing multiple operations until the user exits.
+The **Donation Management System** is a beginner-friendly project developed in **C Programming**.  
+It helps manage donor details, donation amounts, and calculate total donations efficiently.
 
-## Core Concepts Used:
-<h5>This project utilizes several fundamental C programming concepts:</h5>
+This project was created as part of **Project-Based Learning (PBL)** to improve programming logic and understand data handling concepts in C.
 
-Structures (struct): To group donor data (Name, Amount).
+---
 
-Loops & Control Flow: while and switch-case for the interactive menu.
+# ✨ Features
 
-Standard I/O: printf and scanf for data interaction.
+✅ Add Donor Details  
+✅ Store Donation Amount  
+✅ Display All Donations  
+✅ Calculate Total Donations  
+✅ Menu-Driven Interface  
+✅ Beginner-Friendly Project  
 
-Arithmetic Operations: To handle cumulative totals.
+---
 
-## How to Run:
-### Prerequisites
+# 🛠️ Technologies Used
 
-A C compiler (like GCC or MinGW).
+| Technology | Purpose |
+|------------|---------|
+| C Language | Core Programming |
+| Structures | Store donor data |
+| Loops | Menu repetition |
+| Functions | Program organization |
+| Switch Case | Menu handling |
 
-A terminal or command prompt.
+---
 
-## Sample Output:
-<h5>The system displays a menu where you can choose to add a donor, see all donors, or get the total sum.
-Example:</h5>
+# 📚 Core Concepts Used
 
-Enter Name: Divya
+## 🔹 Structures (`struct`)
+Used to store:
+- Donor Name
+- Donation Amount
 
-Enter Amount: 10000
+## 🔹 Loops
+- `while` loop for continuous execution
 
-Total Donation: 10000.00
+## 🔹 Conditional Statements
+- `switch-case` for menu selection
 
-## Future Enhancements:
-[ ] File Handling: Save data to a .txt or .csv file so it persists after closing.
+## 🔹 Standard I/O Functions
+- `printf()`
+- `scanf()`
 
-[ ] Search Feature: Search for a specific donor by name.
+---
 
-[ ] Data Validation: Ensure amounts cannot be negative.
+# 🚀 How To Run
+
+## 📌 Step 1: Compile Program
+
+```bash
+gcc donation.c -o donation
+
+📌 Step 2: Run Program
+
+./donation
+
+
+---
+
+📷 Sample Output
+
+========== Donation Management System ==========
+
+1. Add Donation
+2. View Donations
+3. Calculate Total Donation
+4. Exit
+
+Enter Your Choice: 1
+
+Enter Donor Name: Divya
+Enter Donation Amount: 10000
+
+Donation Added Successfully!
+
+
+---
+
+📂 Project Structure
+
+Donation-Management-System/
+│── donation.c
+│── README.md
+
+
+---
+
+🌟 Future Enhancements
+
+🔹 File Handling Support
+🔹 Search Donor Feature
+🔹 Data Validation
+🔹 Receipt Generation
+🔹 Report System
+🔹 CSV File Storage
+
+
+---
+
+🎯 Learning Outcomes
+
+✔️ Improved C Programming Skills
+✔️ Learned Structure Handling
+✔️ Understood Menu-Driven Programs
+✔️ Improved Logic Building
+✔️ Learned GitHub Project Management
+
+
+---
+
+🤝 Contributing
+
+Contributions are always welcome!
+
+1. Fork the Repository
+
+
+2. Create a New Branch
+
+
+3. Make Changes
+
+
+4. Submit Pull Request
+
+
+
+
+---
+
+👩‍💻 Author
+
+Divya Mer 🚀
+
+💡 First Year Engineering Student
+💻 Passionate About Programming
+🌱 Currently Learning C, C++, Java & Open Source
+
+
+---
+
+<p align="center">
+  ⭐ If you like this project, don't forget to star the repository!
+</p>
+```
