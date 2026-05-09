@@ -160,7 +160,5 @@ Divya Mer 🚀
 
 ---
 
-<p align="center">
   ⭐ If you like this project, don't forget to star the repository!
-</p>
 ```
