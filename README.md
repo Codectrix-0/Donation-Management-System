@@ -135,30 +135,11 @@ Contributions are always welcome!
 
 1. Fork the Repository
 
-
 2. Create a New Branch
-
 
 3. Make Changes
 
-
 4. Submit Pull Request
-
-
-
-
----
-
-👩‍💻 Author
-
-Divya Mer 🚀
-
-💡 First Year Engineering Student
-💻 Passionate About Programming
-🌱 Currently Learning C, C++, Java & Open Source
-
-
----
 
   ⭐ If you like this project, don't forget to star the repository!
 ```
